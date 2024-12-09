@@ -8,7 +8,7 @@ quick start:
 
 how to eval a model:
 1. use ``generate_output.py`` to generate outputs from the model to be eval,
-   the outputs will be saved at ``/MTBench/eval_data/\{model_name\}.jsonl``.
+   the outputs will be saved at ``/MTBench/eval_data/{model_name}.jsonl``.
 2. use ``eval.py`` to eval the outputs by MTBench,
    the result will be saved at ``/MTBench/eval_result/{model_name}.jsonl``
    & the final result will be print in the console.
